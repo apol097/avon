@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../css/estilos2.css" />
+    <script src="../js/app.js" async></script>
+    <title>A V O N</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="line-height: 1em;text-align: center; color: white;">CATALOGO DE PRODUCTOS </h1>
+    </header>
+    <a href="/avon/public/user">
+      <input class="boton6" type="button" value="Regresar"  style= "width: 150px; height: 53px; background-color: #350a06; color: white;  position: absolute; top: 10px; left: 10px;">
+    </a>  
+
+    <section class="contenedor">
+      <!-- Contenedor de elementos -->
+      <div class="contenedor-items">
+        <div class="item">
+          <!--CABELLO-->
+          <span class="titulo-item"
+            >Shampoo para el cabello Aloe Y Macadamia</span
+          >
+          <img src="../img/c1.jpg" alt="" class="img-item" />
+          <span class="precio-item">$37.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Coloracion en Crema permanente</span>
+          <img src="../img/c2.jpg" alt="" class="img-item" />
+          <span class="precio-item">$25.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+
+        <div class="item">
+          <span class="titulo-item">Gel para el Cabello</span>
+          <img src="../img/c3.jpg" alt="" class="img-item" />
+          <span class="precio-item">$35.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <!--PIEL-->
+        <div class="item">
+          <span class="titulo-item">Hidratacion Locion corporal</span>
+          <img src="../img/e1.jpg" alt="" class="img-item" />
+          <span class="precio-item">$18.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Mascarilla Facial limpieza profunda</span>
+          <img src="../img/e2.jpg" alt="" class="img-item" />
+          <span class="precio-item">$32.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Crema para mano Aceite de Almendra</span>
+          <img src="../img/e3.jpg" alt="" class="img-item" />
+          <span class="precio-item">$18.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+
+        <!--FRAGANCIAS-->
+        <div class="item">
+          <span class="titulo-item">Desodorante Antitranspirante</span>
+          <img src="../img/f1.jpg" alt="" class="img-item" />
+          <span class="precio-item">$24.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Locion Perfumada para el cuerpo</span>
+          <img src="../img/f2.jpg" alt="" class="img-item" />
+          <span class="precio-item">$32.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Perfume Rolllete</span>
+          <img src="../img/f3.jpg" alt="" class="img-item" />
+          <span class="precio-item">$20.800</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+
+        <!--MAQUILLAJE-->
+        <div class="item">
+          <span class="titulo-item">Lapiz Labial Extra volumen</span>
+          <img src="../img/m1.jpg" alt="" class="img-item" />
+          <span class="precio-item">$34.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Polvo Compacto Facial</span>
+          <img src="../img/m2.jpeg" alt="" class="img-item" />
+          <span class="precio-item">$42.000</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Delineador Liquido para ojos</span>
+          <img src="../img/m3.jpg" alt="" class="img-item" />
+          <span class="precio-item">$20.800</span>
+          <button class="boton-item">Agregar Producto</button>
+        </div>
+      </div>
+      <!-- Carrito de Compras -->
+      <div class="carrito" id="carrito">
+        <div class="header-carrito">
+          <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">
+          
+        </div>
+        <div class="carrito-total">
+          <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total"> $120.000,00 </span>
+          </div>
+          <button class="btn-pagar">
+            Pagar <i class="fa-solid fa-bag-shopping"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

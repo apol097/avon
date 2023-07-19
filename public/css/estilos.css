@@ -1,0 +1,72 @@
+/* estilos.css */
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del formulario */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: royalblue;
+}
+
+/* Estilos adicionales */
+.row {
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  background-color: blue;
+  color: white;
+}
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+.btn-back {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: royalblue;
+}
+
